@@ -1,0 +1,62 @@
+.register-form {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid var(--instagram-gray);
+    justify-content: center;
+    align-items: center;
+}
+
+.register-info {
+    margin: 0 20px;
+    font-size: 12px;
+    text-align: center;
+}
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.already-registerd {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.already-registerd span:nth-child(2) {
+    color: var(--button-as-text);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.register-form input {
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid rgb(231, 231, 231);
+    background-color: var(--instagram-gray);
+    width: 70%;
+    padding: 7px;
+    background-color: var(--instagram-gray);
+    outline: none;
+    margin: 0 auto;
+}
+
+.register-form button {
+    width: 70%;
+    padding: 7px;
+    margin: 0 auto;
+    background-color: var(--action-button);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
